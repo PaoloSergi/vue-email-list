@@ -15,6 +15,5 @@ const app = new Vue({
             this.mails.push(reply.data.response);
             })
         }
-        console.log(this.mails);
     }
 });
